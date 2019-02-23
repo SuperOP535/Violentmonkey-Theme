@@ -1,0 +1,111 @@
+/* --- this part is unrelated to the dark theme, just really nice to have --- */
+
+button, select, input, textarea {
+  border-radius: 4px;
+}
+
+/* search input margin */
+.filter-search.hidden-sm { margin-right: 10px; }
+.filter-search.hidden-sm > input { width: 100%; }
+
+textarea {
+  padding: 4px;
+  font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;
+  height: 30ch !important;
+}
+
+/* custom style input height */
+.tab-settings div:last-child > section:last-child > textarea {
+  height: 70ch !important;
+}
+
+/* --- end unrelated --- */
+
+.aside-content {
+  background: #2B2B2B;
+}
+
+.aside-content, .aside-menu > a.active {
+  color: #A9B7C6 !important;
+}
+
+.aside-menu > a:hover {
+  color: dimgray;
+}
+
+span[class^="btn"]:hover {
+  background: dimgray;
+}
+
+.tab, section > h3 {
+  background: #3B514D;
+}
+
+.script {
+  background: #313335;
+}
+
+.script.disabled {
+  background: gray;
+}
+
+.script.disabled, .script.disabled > .script-info > .script-name {
+  color: white !important;
+}
+
+textarea, input {
+  background: lightgray;
+}
+
+input::placeholder {
+  color: black;
+}
+
+/* Source: https://github.com/codemirror/CodeMirror/blob/master/theme/darcula.css */
+
+.cm-s-eclipse  { font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;}
+.cm-s-eclipse.CodeMirror { background: #2B2B2B; color: #A9B7C6; } 
+
+.cm-s-eclipse span.cm-meta { color: #BBB529; }
+.cm-s-eclipse span.cm-number { color: #6897BB; }
+.cm-s-eclipse span.cm-keyword { color: #CC7832; line-height: 1em; font-weight: bold; }  
+.cm-s-eclipse span.cm-def { color: #A9B7C6; font-style: italic; }
+.cm-s-eclipse span.cm-variable { color: #A9B7C6; }
+.cm-s-eclipse span.cm-variable-2 { color: #A9B7C6; }
+.cm-s-eclipse span.cm-variable-3 { color: #9876AA; }
+.cm-s-eclipse span.cm-type { color: #AABBCC; font-weight: bold; }
+.cm-s-eclipse span.cm-property { color: #FFC66D; }
+.cm-s-eclipse span.cm-operator { color: #A9B7C6; }
+.cm-s-eclipse span.cm-string { color: #6A8759; }
+.cm-s-eclipse span.cm-string-2 { color: #6A8759; }
+.cm-s-eclipse span.cm-comment { color: #61A151; font-style: italic; } 
+.cm-s-eclipse span.cm-link { color: #CC7832; }
+.cm-s-eclipse span.cm-atom { color: #CC7832; }
+.cm-s-eclipse span.cm-error { color: #BC3F3C; }
+.cm-s-eclipse span.cm-tag { color: #629755; font-weight: bold; font-style: italic; text-decoration: underline; }
+.cm-s-eclipse span.cm-attribute { color: #6897bb; }
+.cm-s-eclipse span.cm-qualifier { color: #6A8759; }
+.cm-s-eclipse span.cm-bracket { color: #A9B7C6; }
+.cm-s-eclipse span.cm-builtin { color: #FF9E59; }
+.cm-s-eclipse span.cm-special { color: #FF9E59; }
+
+.cm-s-eclipse .CodeMirror-cursor { border-left: 1px solid #A9B7C6; }  
+.cm-s-eclipse .CodeMirror-activeline-background { background: #323232; } 
+.cm-s-eclipse .CodeMirror-gutters { background: #313335; border-right: 1px solid #313335; } 
+.cm-s-eclipse .CodeMirror-guttermarker { color: #FFEE80; }  
+.cm-s-eclipse .CodeMirror-guttermarker-subtle { color: #D0D0D0; }  
+.cm-s-eclipse .CodeMirrir-linenumber { color: #606366; } 
+.cm-s-eclipse .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; font-weight: bold; } 
+
+.cm-s-eclipse div.CodeMirror-selected { background: #214283; }  
+
+.CodeMirror-hints.eclipse {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #9C9E9E;
+  background-color: #3B3E3F !important;
+}
+
+.CodeMirror-hints.eclipse .CodeMirror-hint-active {
+  background-color: #494D4E !important;
+  color: #9C9E9E !important;
+}

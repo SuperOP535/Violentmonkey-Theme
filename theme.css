@@ -14,7 +14,7 @@ textarea {
   height: 30ch !important;
 }
 
-/* custom style input height */
+/* custom style input */
 .tab-settings div:last-child > section:last-child > textarea {
   height: 70ch !important;
 }
@@ -37,8 +37,14 @@ span[class^="btn"]:hover {
   background: dimgray;
 }
 
-.tab, section > h3 {
+.tab, section > h3, .page-popup {
   background: #3B514D;
+}
+
+/* fix white bar at the top */
+.page-popup {
+  margin-top: -1em;
+  padding-top: 1em;
 }
 
 .script {

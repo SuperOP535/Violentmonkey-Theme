@@ -21,8 +21,12 @@ textarea {
 
 /* --- end unrelated --- */
 
-.aside-content {
+.aside-content, .page-popup, .flex.menu-buttons {
   background: #2B2B2B;
+}
+
+.flex.menu-buttons {
+  color: lightgray;
 }
 
 .aside-content, .aside-menu > a.active {
@@ -37,7 +41,7 @@ span[class^="btn"]:hover {
   background: dimgray;
 }
 
-.tab, section > h3, .page-popup {
+.tab, section > h3, .page-popup .menu, .page-popup .menu .submenu {
   background: #3B514D;
 }
 

@@ -59,7 +59,7 @@ span[class^="btn"]:hover {
   background: gray;
 }
 
-.script {
+.script, .page-popup {
   color: lightgray;
 }
 

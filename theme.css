@@ -59,6 +59,10 @@ span[class^="btn"]:hover {
   background: gray;
 }
 
+.script {
+  color: lightgray;
+}
+
 .script.disabled, .script.disabled > .script-info > .script-name {
   color: white !important;
 }
